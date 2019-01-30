@@ -7,7 +7,6 @@ import util
 def main():
     # logger = logging.getLogger()
     util.setup_logging()
-    # logger = logging.getLogger(__name__)
     # send some messages
     logging.debug('debug message')
     logging.info('info message')

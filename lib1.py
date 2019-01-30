@@ -1,8 +1,5 @@
 import logging
 
-print('lib1')
-print(__name__)
-
 
 def func1():
     logger = logging.getLogger(__name__)
