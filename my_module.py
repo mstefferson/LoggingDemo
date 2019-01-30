@@ -11,7 +11,7 @@ def foo():
 
 class Bar(object):
     def __init__(self, logger=None):
-        self.logger = logger or logging.getLogger(__name__)
+        self.logger = logging.getLogger(__name__)
 
     def bar(self):
         self.logger.debug('bar')
