@@ -34,7 +34,7 @@ loggers:
         propagate: no
     lib1:
         level: INFO
-        handlers: [console]
+        handlers: [console, info_file_handler]
         propagate: no
 
 
